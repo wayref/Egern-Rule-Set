@@ -220,33 +220,32 @@ RULES = {
     ],
     'Repcz/百度.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Baidu/Baidu.list',
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BaiDuTieBa/BaiDuTieBa.list',
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iQIYI/iQIYI.list',
     ],
     'Repcz/哔哩哔哩.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list',
     ],
-    'Repcz/抖音.yaml': [
+    'Repcz/字节跳动.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ByteDance/ByteDance.list',
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DouYin/DouYin.list',
-    ],
-    'Repcz/高德地图.yaml': [
-        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GaoDe/GaoDe.list',
     ],
     'Repcz/小米.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/XiaoMi/XiaoMi.list',
     ],
     'Repcz/阿里巴巴.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Alibaba/Alibaba.list',
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AliPay/AliPay.list',
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DingTalk/DingTalk.list',
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GaoDe/GaoDe.list',
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Youku/Youku.list',
     ],
     'Repcz/网易.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEase/NetEase.list',
-    ],
-    'Repcz/网易云音乐.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEaseMusic/NetEaseMusic.list',
     ],
     'Repcz/美团.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/MeiTuan/MeiTuan.list',
-    ],
-    'Repcz/支付宝.yaml': [
-        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AliPay/AliPay.list',
     ],
     'Repcz/滴滴.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DiDi/DiDi.list',
@@ -254,32 +253,21 @@ RULES = {
     'Repcz/快手.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KuaiShou/KuaiShou.list',
     ],
-    'Repcz/微博.yaml': [
-        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Weibo/Weibo.list',
-    ],
     'Repcz/小红书.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/XiaoHongShu/XiaoHongShu.list',
     ],
     'Repcz/知乎.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Zhihu/Zhihu.list',
     ],
-    'Repcz/优酷.yaml': [
-        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Youku/Youku.list',
-    ],
-    'Repcz/爱奇艺.yaml': [
-        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iQIYI/iQIYI.list',
-    ],
     'Repcz/豆瓣.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DouBan/DouBan.list',
     ],
     'Repcz/新浪.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Sina/Sina.list',
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Weibo/Weibo.list',
     ],
     'Repcz/搜狐.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Sohu/Sohu.list',
-    ],
-    'Repcz/百度贴吧.yaml': [
-        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BaiDuTieBa/BaiDuTieBa.list',
     ],
     'Repcz/华为.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Huawei/Huawei.list',
