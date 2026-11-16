@@ -53,7 +53,6 @@ jobs:
           MIRRORS=(
             "https://hub.hin0ka.com/rules/Egern/AI.yaml|hin0ka/AI.yaml"
             "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Rule/Lsr/SpeedtestInternational.lsr|KeleeOne/SpeedtestInternational.lsr"
-            "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Rule/Lsr/LAN_SPLITTER.lsr|KeleeOne/LAN_SPLITTER.lsr"
           )
           for entry in "${MIRRORS[@]}"; do
             url="${entry%%|*}"
