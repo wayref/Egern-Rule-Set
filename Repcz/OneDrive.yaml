@@ -1,7 +1,3 @@
-# NAME: OneDrive
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 16
-
 domain_suffix_set:
   - 1drv.com
   - livefilestore.com

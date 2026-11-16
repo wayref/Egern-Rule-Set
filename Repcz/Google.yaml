@@ -1,7 +1,3 @@
-# NAME: Google
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 698
-
 domain_set:
   - voice.telephony.goog
 

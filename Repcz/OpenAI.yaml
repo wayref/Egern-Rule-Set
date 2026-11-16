@@ -1,7 +1,3 @@
-# NAME: OpenAI
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 35
-
 domain_set:
   - browser-intake-datadoghq.com
   - chat.openai.com.cdn.cloudflare.net

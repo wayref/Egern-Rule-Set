@@ -1,7 +1,3 @@
-# NAME: AppleTV
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 9
-
 domain_set:
   - hls-amt.itunes.apple.com
   - hls.itunes.apple.com

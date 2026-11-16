@@ -1,7 +1,3 @@
-# NAME: Hulu
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 58
-
 domain_set:
   - live-mediashield-ava-hulustream-com.akamaized.net
 

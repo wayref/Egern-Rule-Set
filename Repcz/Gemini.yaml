@@ -1,7 +1,3 @@
-# NAME: Gemini
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 13
-
 domain_set:
   - ai.google.dev
   - alkalimakersuite-pa.clients6.google.com

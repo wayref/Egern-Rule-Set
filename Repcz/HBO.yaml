@@ -1,7 +1,3 @@
-# NAME: HBO
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 49
-
 domain_suffix_set:
   - bcbolthboa-a.akamaihd.net
   - cf-images.ap-southeast-1.prod.boltdns.net

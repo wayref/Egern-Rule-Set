@@ -1,7 +1,3 @@
-# NAME: Disney
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 173
-
 domain_suffix_set:
   - 20thcenturystudios.com.au
   - 20thcenturystudios.com.br

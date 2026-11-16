@@ -1,7 +1,3 @@
-# NAME: Blizzard
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 62
-
 domain_suffix_set:
   - battle.net
   - battlenet.com

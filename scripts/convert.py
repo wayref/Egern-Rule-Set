@@ -279,7 +279,6 @@ def merge_parsed(parsed_list):
 def to_egern_yaml(name, merged, drop_ip=False):
     """Render merged rules as Egern YAML text."""
     lines = []
-    total = 0
     # Fixed key order (match Repcz output order)
     key_order = ['domain_set', 'domain_suffix_set', 'domain_keyword_set',
                  'domain_wildcard_set', 'ip_cidr_set', 'ip_cidr6_set',
@@ -291,7 +290,6 @@ def to_egern_yaml(name, merged, drop_ip=False):
         values = sorted(merged.get(key, set()))
         if not values:
             continue
-        total += len(values)
         lines.append(f'{key}:')
         # Quote types that contain YAML special chars
         quote_all = key in ('asn_set', 'url_regex_set', 'user_agent_set', 'dest_port_set')
@@ -305,8 +303,7 @@ def to_egern_yaml(name, merged, drop_ip=False):
             else:
                 lines.append(f'  - {v}')
         lines.append('')
-    header = f'# NAME: {name}\n# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)\n# TOTAL: {total}\n\n'
-    return header + '\n'.join(lines).rstrip() + '\n'
+    return '\n'.join(lines).rstrip() + '\n'
 
 
 def parse_egern_yaml(text):

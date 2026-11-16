@@ -1,7 +1,3 @@
-# NAME: eBay
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 44
-
 domain_suffix_set:
   - about.co.kr
   - auction.co.kr

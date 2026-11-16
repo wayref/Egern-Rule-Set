@@ -1,7 +1,3 @@
-# NAME: Cloudflare
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 65
-
 domain_suffix_set:
   - cf-ipfs.com
   - cf-ns.com

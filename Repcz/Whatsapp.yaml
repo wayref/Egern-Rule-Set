@@ -1,7 +1,3 @@
-# NAME: Whatsapp
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 17
-
 domain_set:
   - graph.facebook.com
 

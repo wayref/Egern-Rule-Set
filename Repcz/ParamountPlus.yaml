@@ -1,7 +1,3 @@
-# NAME: ParamountPlus
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 10
-
 domain_set:
   - cbsi.live.ott.irdeto.com
   - cbsplaylistserver.aws.syncbak.com

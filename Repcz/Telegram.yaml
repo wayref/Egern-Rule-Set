@@ -1,7 +1,3 @@
-# NAME: Telegram
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 51
-
 domain_set:
   - api.imem.app
   - api.swiftgram.app

@@ -1,7 +1,3 @@
-# NAME: Steam
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 69
-
 domain_suffix_set:
   - cdn-ali.content.steamchina.com
   - cdn-qc.content.steamchina.com

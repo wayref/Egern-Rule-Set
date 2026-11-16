@@ -1,7 +1,3 @@
-# NAME: Spotify
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 30
-
 domain_set:
   - audio4-ak-spotify-com.akamaized.net
   - cdn-spotify-experiments.conductrics.com

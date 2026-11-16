@@ -1,7 +1,3 @@
-# NAME: Riot
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 55
-
 domain_suffix_set:
   - championshipseriesleague.com
   - convrgencegame.com

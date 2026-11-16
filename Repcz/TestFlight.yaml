@@ -1,7 +1,3 @@
-# NAME: TestFlight
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 3
-
 domain_set:
   - beta.apple.com
   - testflight.apple.com

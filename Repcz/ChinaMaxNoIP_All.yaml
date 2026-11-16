@@ -1,7 +1,3 @@
-# NAME: ChinaMaxNoIP_All
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 110427
-
 domain_set:
   - 1-fss24-s0.streamhoster.com
   - 14033.live.streamtheworld.com

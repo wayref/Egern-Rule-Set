@@ -1,7 +1,3 @@
-# NAME: Twitch
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 21
-
 domain_suffix_set:
   - ext-twitch.tv
   - jtvnw.net

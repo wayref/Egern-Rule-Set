@@ -1,7 +1,3 @@
-# NAME: Microsoft
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 671
-
 domain_set:
   - vsmarketplacebadge.apphb.com
 

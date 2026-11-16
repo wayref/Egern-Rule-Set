@@ -1,7 +1,3 @@
-# NAME: PrimeVideo
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 18
-
 domain_set:
   - atv-ps.amazon.com
   - avodmp4s3ww-a.akamaihd.net
