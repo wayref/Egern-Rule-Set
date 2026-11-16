@@ -207,13 +207,9 @@ RULES = {
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list',
     ],
     # --- Domestic Services (China) - Chinese names ---
-    'Repcz/微信.yaml': [
-        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list',
-    ],
     'Repcz/腾讯.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list',
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Tencent/Tencent.list',
-    ],
-    'Repcz/腾讯视频.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TencentVideo/TencentVideo.list',
     ],
     'Repcz/京东.yaml': [
