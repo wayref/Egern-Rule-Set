@@ -80,7 +80,7 @@ RULES = {
     'Repcz/China.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax_Domain.list',
     ],
-    'Repcz/局域网.yaml': [
+    'Repcz/内网.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list',
     ],
     # --- Streaming ---
@@ -229,7 +229,7 @@ RULES = {
     'Repcz/哔哩哔哩.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list',
     ],
-    'Repcz/字节跳动.yaml': [
+    'Repcz/字节.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ByteDance/ByteDance.list',
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DouYin/DouYin.list',
     ],
@@ -275,7 +275,7 @@ RULES = {
     'Repcz/搜狐.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Sohu/Sohu.list',
     ],
-    'Repcz/三大运营商.yaml': [
+    'Repcz/三网.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMobile/ChinaMobile.list',
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaTelecom/ChinaTelecom.list',
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaUnicom/ChinaUnicom.list',
