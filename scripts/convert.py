@@ -80,6 +80,9 @@ RULES = {
     'Repcz/China.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax_Domain.list',
     ],
+    'Repcz/局域网.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list',
+    ],
     # --- Streaming ---
     'Repcz/Netflix.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list',
