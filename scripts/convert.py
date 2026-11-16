@@ -206,6 +206,49 @@ RULES = {
     'Repcz/Speedtest.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list',
     ],
+    # --- Domestic Services (China) ---
+    'Repcz/WeChat.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list',
+    ],
+    'Repcz/Tencent.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Tencent/Tencent.list',
+    ],
+    'Repcz/TencentVideo.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TencentVideo/TencentVideo.list',
+    ],
+    'Repcz/JingDong.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/JingDong/JingDong.list',
+    ],
+    'Repcz/Pinduoduo.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Pinduoduo/Pinduoduo.list',
+    ],
+    'Repcz/Baidu.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Baidu/Baidu.list',
+    ],
+    'Repcz/BiliBili.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list',
+    ],
+    'Repcz/DouYin.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DouYin/DouYin.list',
+    ],
+    'Repcz/GaoDe.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GaoDe/GaoDe.list',
+    ],
+    'Repcz/XiaoMi.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/XiaoMi/XiaoMi.list',
+    ],
+    'Repcz/Alibaba.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Alibaba/Alibaba.list',
+    ],
+    'Repcz/NetEase.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEase/NetEase.list',
+    ],
+    'Repcz/NetEaseMusic.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEaseMusic/NetEaseMusic.list',
+    ],
+    'Repcz/MeiTuan.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/MeiTuan/MeiTuan.list',
+    ],
 }
 
 # Rules that drop IP-type entries (IP-CIDR, IP-CIDR6, GEOIP)
