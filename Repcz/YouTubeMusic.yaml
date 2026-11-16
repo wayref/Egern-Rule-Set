@@ -1,0 +1,12 @@
+# NAME: YouTubeMusic
+# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
+# TOTAL: 5
+
+domain_set:
+  - music.youtube.com
+
+user_agent_set:
+  - "*YouTubeMusic*"
+  - "*com.google.ios.youtubemusic*"
+  - "YouTubeMusic*"
+  - "com.google.ios.youtubemusic*"

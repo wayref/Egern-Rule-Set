@@ -1,0 +1,13 @@
+# NAME: Reddit
+# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
+# TOTAL: 8
+
+domain_suffix_set:
+  - redd.it
+  - reddit.com
+  - redditmail.com
+  - redditmedia.com
+  - redditstatic.com
+  - reddituploads.com
+  - reddituploads.com.cdn-cf.behance.net
+  - reddituploads.com.cdn-cf.dropbox.com

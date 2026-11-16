@@ -1,0 +1,9 @@
+# NAME: PlayStation
+# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
+# TOTAL: 4
+
+domain_suffix_set:
+  - playstation.com
+  - playstation.net
+  - playstationnetwork.com
+  - sonyentertainmentnetwork.com

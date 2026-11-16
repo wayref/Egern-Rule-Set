@@ -1,0 +1,99 @@
+name: Sync Rules from Upstream
+
+on:
+  schedule:
+    # Daily at 02:00 UTC (10:00 Beijing)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Convert rules from upstream (blackmatrix7 + KeleeOne)
+        run: |
+          # Back up user-overridden files before conversion.
+          # A file is user-managed if its last commit was NOT by the sync bot.
+          mkdir -p /tmp/user_override
+          OVERRIDDEN=""
+          for f in Repcz/*.yaml; do
+            [ -f "$f" ] || continue
+            last_author=$(git log -1 --format='%an' -- "$f" 2>/dev/null || echo "")
+            if [ "$last_author" != "github-actions[bot]" ] && [ -n "$last_author" ]; then
+              echo "User-managed (will restore after convert): $f ($last_author)"
+              cp "$f" "/tmp/user_override/$(basename "$f")"
+              OVERRIDDEN="$OVERRIDDEN $f"
+            fi
+          done
+          echo "overridden=$OVERRIDDEN" >> "$GITHUB_ENV"
+
+          # Run conversion (blackmatrix7 direct + KeleeOne merge for Telegram)
+          python3 scripts/convert.py --output-dir .
+
+          # Restore user-overridden files
+          for f in $OVERRIDDEN; do
+            cp "/tmp/user_override/$(basename "$f")" "$f"
+            echo "Restored user version: $f"
+          done
+
+      - name: Mirror non-converted rules (hin0ka AI, KeleeOne .lsr)
+        run: |
+          MIRRORS=(
+            "https://hub.hin0ka.com/rules/Egern/AI.yaml|hin0ka/AI.yaml"
+            "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Rule/Lsr/SpeedtestInternational.lsr|KeleeOne/SpeedtestInternational.lsr"
+            "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Rule/Lsr/LAN_SPLITTER.lsr|KeleeOne/LAN_SPLITTER.lsr"
+          )
+          for entry in "${MIRRORS[@]}"; do
+            url="${entry%%|*}"
+            path="${entry##*|}"
+            if [ -f "$path" ]; then
+              last_author=$(git log -1 --format='%an' -- "$path" 2>/dev/null || echo "")
+              if [ "$last_author" != "github-actions[bot]" ] && [ -n "$last_author" ]; then
+                echo "SKIP (user-managed): $path ($last_author)"
+                continue
+              fi
+            fi
+            tmpfile=$(mktemp)
+            if ! curl -sL --max-time 120 --fail "$url" -o "$tmpfile"; then
+              echo "FAIL (download): $path"
+              rm -f "$tmpfile"
+              continue
+            fi
+            if [ ! -s "$tmpfile" ]; then
+              echo "FAIL (empty): $path"
+              rm -f "$tmpfile"
+              continue
+            fi
+            if [ -f "$path" ] && cmp -s "$tmpfile" "$path"; then
+              echo "UNCHANGED: $path"
+            else
+              mkdir -p "$(dirname "$path")"
+              mv "$tmpfile" "$path"
+              echo "UPDATED: $path"
+            fi
+            rm -f "$tmpfile"
+          done
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes, nothing to commit."
+          else
+            git commit -m "Sync rules from upstream ($(date -u +%Y-%m-%d))"
+            git push
+          fi
