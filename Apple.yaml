@@ -1,7 +1,3 @@
-# NAME: Apple (cleaned v2)
-# SOURCE: MagicRule Apple_rules, filtered to Apple-related domains only
-# ORIGINAL: 5993 rules (2026-11-12)
-# v2: removed 45 non-Apple domain_set entries (speedtest, analytics, unrelated), added apple-mapkit.com, icloud-content.com, apple.tv
 no_resolve: true
 domain_set:
 - a1.mzstatic.com

@@ -1,7 +1,3 @@
-# NAME: Emby
-# SOURCE: blackmatrix7/ios_rule_script (+ KeleeOne for Telegram)
-# TOTAL: 51
-
 domain_set:
   - emby.enjoyit.eu.org
   - emby.lcloud.wiki
