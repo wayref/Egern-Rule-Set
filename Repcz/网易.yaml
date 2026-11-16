@@ -37,6 +37,7 @@ domain_suffix_set:
   - 21cntx.com
   - 321fenx.com
   - adl163.com
+  - api.iplay.163.com
   - chatnos.com
   - dingwei.link
   - easebar.com
@@ -56,6 +57,7 @@ domain_suffix_set:
   - hukesxm.com
   - hukewq.com
   - hukexyy.com
+  - hz.netease.com
   - icourse163.cn
   - icourse163.com
   - icourse163.org
@@ -69,7 +71,12 @@ domain_suffix_set:
   - lf126.net
   - lf127.net
   - lofter.com
+  - mam.netease.com
   - marvelunlimitedresources.com
+  - music.126.com
+  - music.126.net
+  - music.163.com
+  - music.163.com.163jiasu.com
   - nbhuke.com
   - ndiip.com
   - nease.net
@@ -127,6 +134,7 @@ ip_cidr_set:
   - 112.13.119.18/32
   - 112.13.122.1/32
   - 112.13.122.4/32
+  - 115.236.112.0/20
   - 115.236.118.33/32
   - 115.236.118.34/32
   - 115.236.121.1/32
@@ -134,11 +142,13 @@ ip_cidr_set:
   - 118.24.63.156/32
   - 182.92.170.253/32
   - 193.112.159.225/32
+  - 223.252.192.0/19
   - 223.252.199.66/31
   - 39.105.175.128/32
   - 39.105.63.80/32
   - 45.254.48.1/32
   - 47.100.127.239/32
+  - 59.111.128.0/17
   - 59.111.160.195/32
   - 59.111.160.197/32
   - 59.111.179.214/32
@@ -149,3 +159,7 @@ ip_cidr_set:
   - 59.111.19.33/32
   - 59.111.21.14/31
   - 59.111.238.29/32
+
+user_agent_set:
+  - "%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*"
+  - "NeteaseMusic*"

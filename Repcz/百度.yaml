@@ -1,13 +1,55 @@
+domain_set:
+  - als.baidu.com
+  - cdn.hiphotos.baidu.com
+  - cpro.baidustatic.com
+  - crab.baidu.com
+  - dlswbr.baidu.com
+  - ecma.bdimg.com
+  - feed-image.baidu.com
+  - fex.bdstatic.com
+  - gomediago.baidu.com
+  - gsp0.baidu.com
+  - gss0.bdstatic.com
+  - hmma.baidu.com
+  - mediago-static.cdn.bcebos.com
+  - miaowu.baidu.com
+  - mobads-log.baidu.com
+  - mobads.baidu.com
+  - ns-strategy.cdn.bcebos.com
+  - nsclick.baidu.com
+  - passport.baidu.com
+  - sofire.bdstatic.com
+  - tb.himg.baidu.com
+  - tb1.bdstatic.com
+  - tb2.bdstatic.com
+  - tb3.bdstatic.com
+  - tb4.bdstatic.com
+  - tb5.bdstatic.com
+  - tb6.bdstatic.com
+  - tbmsg.baidu.com
+  - tieba-ares.cdn.bcebos.com
+  - tiebac.baidu.com
+  - tiebapic.baidu.com
+
 domain_suffix_set:
   - 17swan.com
   - 37swan.com
+  - 71.am
+  - 71.am.com
+  - 71edge.com
+  - 71edge.net
   - 91.com
   - 911dns.cn
   - 911dns.com.cn
+  - aianno.cn
+  - aianno.com
   - aicdn.work
   - aipage.com
   - aiqicha.cn
   - aiqicha.com
+  - aiqiyicloud-mgmt.com
+  - aiqiyicloud.com
+  - aiqiyicloud.net
   - apollo-platform.com
   - apollo-share.com
   - apollo.auto
@@ -68,6 +110,7 @@ domain_suffix_set:
   - baihangdai.com
   - baijincdn.cn
   - baijincdn.com
+  - baiying.com
   - bakshifen.com
   - bce-cdn.cn
   - bce-cdn.com
@@ -144,6 +187,8 @@ domain_suffix_set:
   - fhldns.com.cn
   - fhldns.net
   - game-client.com
+  - gitv.cn
+  - gitv.tv
   - haluan2u.com
   - hao123.com
   - hao123.net
@@ -157,7 +202,15 @@ domain_suffix_set:
   - hongmeiti.com.cn
   - hongmeiti.net
   - huoyanyunying.com
+  - ibkstore.com
+  - iq.com
+  - iqiyi.com
+  - iqiyi.demo.uwp
+  - iqiyiedge.com
+  - iqiyiedge.net
+  - iqiyipic.com
   - ja-cloud.com
+  - jiangbing.cn
   - jingling.cn
   - jomocdn.cn
   - jomocdn.net
@@ -188,9 +241,22 @@ domain_suffix_set:
   - openrasp.org.cn
   - paddlepaddle.org.cn
   - popincdn.com
+  - pps.tv
+  - ppsimg.com
+  - ppstream.cn
+  - ppstream.com
+  - ppstream.com.cn
+  - ppstream.net
+  - ppstream.net.cn
+  - ppsurl.com
   - pubbcsapp.com
   - qianqian.com
+  - qiyi.cn
+  - qiyi.com
+  - qiyipic.com
   - qxllq.com
+  - qy.com
+  - qy.net
   - sanguows.com
   - searchcraft.cn
   - sg.work
@@ -198,8 +264,10 @@ domain_suffix_set:
   - siteapp-static.com
   - smartapps.cn
   - submusic.cn
+  - suike.cn
   - swan366.com
   - taihe.com
+  - tieba.baidu.com
   - tieba.com
   - tiebaimg.com
   - tradaquan.com
@@ -250,3 +318,37 @@ domain_suffix_set:
   - zuoyebang.cc
   - zuoyebang.com
   - zybang.com
+
+domain_keyword_set:
+  - qiyi
+
+ip_cidr_set:
+  - 101.224.0.0/13
+  - 103.44.56.0/22
+  - 103.5.34.153/32
+  - 104.109.129.153/32
+  - 110.238.107.47/32
+  - 118.26.120.0/24
+  - 118.26.32.0/23
+  - 119.176.0.0/12
+  - 203.211.4.169/32
+  - 203.211.4.193/32
+  - 203.74.95.131/32
+  - 203.74.95.139/32
+  - 203.74.95.153/32
+  - 210.201.32.11/32
+  - 210.201.32.8/32
+  - 210.71.227.200/32
+  - 210.71.227.202/32
+  - 23.211.15.99/32
+  - 23.40.241.251/32
+  - 23.40.242.10/32
+  - 23.53.32.88/32
+
+user_agent_set:
+  - "PPStream*"
+  - "QIYI*"
+  - "QYPlayer*"
+  - "iQIYI*"
+  - "iQiYi*"
+  - "iQiyi*"

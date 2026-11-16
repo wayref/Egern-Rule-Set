@@ -1,7 +1,82 @@
 domain_suffix_set:
+  - 0co3geye.cn
+  - 2isbbess.cn
+  - 33lwhaoinc.cn
+  - 52mtkvideo.cn
+  - 9xsecndns.cn
+  - a-map.cn
+  - a-map.co
+  - a-map.link
+  - a-map.vip
   - alibaba
+  - alipay
+  - alipay-corp.com
+  - alipay-eco.com
+  - alipay-inc.com
+  - alipay-traffic.com
+  - alipay.cn
+  - alipay.com
+  - alipay.com.cn
+  - alipay.hk
+  - alipay.net
+  - alipaydesign.com
+  - alipaydev.com
+  - alipaydns.com
+  - alipayeshop.com
+  - alipaylog.com
+  - alipaymo.com
+  - alipayobjects.com
+  - alipayplus.com
+  - amap.com
+  - amapauto.com
+  - anav.com
+  - autonavi.com
+  - b82yxres.cn
+  - ddurl.to
+  - dg-work.cn
+  - dingding.xin
+  - dingtalk.cn
+  - dingtalk.com
+  - dingtalk.com.cn
+  - dingtalk.net
+  - dingtalkapps.com
+  - e8h2ty.tdum.alibaba.com
+  - gamenow.club
+  - gaode.com
+  - ifaa.org.cn
+  - kumiao.com
+  - kumiao.tv
+  - kuxiaomiao.cn
+  - kuxiaomiao.com
+  - kuxiaomiao.com.cn
+  - kuxiaomiao.net
+  - laiwang.com
+  - luohanacademy.com
+  - lwurl.to
+  - ns6mitkxo.cn
+  - realapp.xin
+  - sinopayment.com.cn
+  - sk2cdsnw.cn
+  - sogoodtech1.cn
+  - soku.com
   - taobao
   - tmall
+  - tudou.com
+  - ukoo.com.cn
+  - wenyupages.com
+  - wingsmobiletek.cn
+  - wwc.alicdn.com
+  - ykimg.com
+  - yodou.com
+  - yoku.net.cn
+  - yoqoo.com
+  - yoqoo.net
+  - yoqoo.net.cn
+  - yoqoo.tv
+  - youku.com
+  - youku.com.cn
+  - youku.org
+  - youqoo.net
 
 ip_cidr_set:
   - 103.206.40.0/22
@@ -60,3 +135,7 @@ ip_cidr_set:
 
 ip_cidr6_set:
   - 2400:b200::/32
+
+user_agent_set:
+  - "%E4%BC%98%E9%85%B7*"
+  - "Youku*"
