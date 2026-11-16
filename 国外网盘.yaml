@@ -1,7 +1,6 @@
 # 国外网盘合集 (本地版)
 # 合并自 Repcz/EgernRules: GoogleDrive, Dropbox, OneDrive, MEGA, TeraBox, PikPak
-# + blackmatrix7 Yandex Disk (俄罗斯网盘)
-# Date: 2026-11-16
+# Date: 2026-10-18
 
 domain_set:
   - www.googleapis.com
