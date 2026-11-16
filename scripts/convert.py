@@ -206,48 +206,108 @@ RULES = {
     'Repcz/Speedtest.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list',
     ],
-    # --- Domestic Services (China) ---
-    'Repcz/WeChat.yaml': [
+    # --- Domestic Services (China) - Chinese names ---
+    'Repcz/微信.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list',
     ],
-    'Repcz/Tencent.yaml': [
+    'Repcz/腾讯.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Tencent/Tencent.list',
     ],
-    'Repcz/TencentVideo.yaml': [
+    'Repcz/腾讯视频.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TencentVideo/TencentVideo.list',
     ],
-    'Repcz/JingDong.yaml': [
+    'Repcz/京东.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/JingDong/JingDong.list',
     ],
-    'Repcz/Pinduoduo.yaml': [
+    'Repcz/拼多多.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Pinduoduo/Pinduoduo.list',
     ],
-    'Repcz/Baidu.yaml': [
+    'Repcz/百度.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Baidu/Baidu.list',
     ],
-    'Repcz/BiliBili.yaml': [
+    'Repcz/哔哩哔哩.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list',
     ],
-    'Repcz/DouYin.yaml': [
+    'Repcz/抖音.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DouYin/DouYin.list',
     ],
-    'Repcz/GaoDe.yaml': [
+    'Repcz/高德地图.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GaoDe/GaoDe.list',
     ],
-    'Repcz/XiaoMi.yaml': [
+    'Repcz/小米.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/XiaoMi/XiaoMi.list',
     ],
-    'Repcz/Alibaba.yaml': [
+    'Repcz/阿里巴巴.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Alibaba/Alibaba.list',
     ],
-    'Repcz/NetEase.yaml': [
+    'Repcz/网易.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEase/NetEase.list',
     ],
-    'Repcz/NetEaseMusic.yaml': [
+    'Repcz/网易云音乐.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEaseMusic/NetEaseMusic.list',
     ],
-    'Repcz/MeiTuan.yaml': [
+    'Repcz/美团.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/MeiTuan/MeiTuan.list',
+    ],
+    'Repcz/支付宝.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AliPay/AliPay.list',
+    ],
+    'Repcz/滴滴.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DiDi/DiDi.list',
+    ],
+    'Repcz/快手.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KuaiShou/KuaiShou.list',
+    ],
+    'Repcz/微博.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Weibo/Weibo.list',
+    ],
+    'Repcz/小红书.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/XiaoHongShu/XiaoHongShu.list',
+    ],
+    'Repcz/知乎.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Zhihu/Zhihu.list',
+    ],
+    'Repcz/优酷.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Youku/Youku.list',
+    ],
+    'Repcz/爱奇艺.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iQIYI/iQIYI.list',
+    ],
+    'Repcz/豆瓣.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DouBan/DouBan.list',
+    ],
+    'Repcz/新浪.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Sina/Sina.list',
+    ],
+    'Repcz/搜狐.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Sohu/Sohu.list',
+    ],
+    'Repcz/百度贴吧.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BaiDuTieBa/BaiDuTieBa.list',
+    ],
+    'Repcz/华为.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Huawei/Huawei.list',
+    ],
+    'Repcz/Vivo.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Vivo/Vivo.list',
+    ],
+    'Repcz/OPPO.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OPPO/OPPO.list',
+    ],
+    'Repcz/中国移动.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMobile/ChinaMobile.list',
+    ],
+    'Repcz/中国电信.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaTelecom/ChinaTelecom.list',
+    ],
+    'Repcz/中国联通.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaUnicom/ChinaUnicom.list',
+    ],
+    'Repcz/中国国航.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AirChina/AirChina.list',
+    ],
+    'Repcz/中国新闻.yaml': [
+        'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaNews/ChinaNews.list',
     ],
 }
 
