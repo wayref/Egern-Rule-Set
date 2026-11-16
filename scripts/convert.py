@@ -47,7 +47,7 @@ QUOTE_TYPES = {'IP-ASN', 'URL-REGEX', 'USER-AGENT', 'DEST-PORT'}
 DROP_TYPES = {'PROCESS-NAME', 'AND', 'OR', 'NOT', 'SRC-IP', 'SRC-PORT'}
 
 # Rule definitions: output file -> list of upstream URLs
-# For ChinaMaxNoIP_All, IP rules are filtered out (drop_ip=True)
+# For China, IP rules are filtered out (drop_ip=True)
 RULES = {
     'Repcz/Google.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list',
@@ -77,7 +77,7 @@ RULES = {
     'Repcz/GitHub.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list',
     ],
-    'Repcz/ChinaMaxNoIP_All.yaml': [
+    'Repcz/China.yaml': [
         'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax_Domain.list',
     ],
     # --- Streaming ---
@@ -286,7 +286,7 @@ RULES = {
 }
 
 # Rules that drop IP-type entries (IP-CIDR, IP-CIDR6, GEOIP)
-DROP_IP_RULES = {'Repcz/ChinaMaxNoIP_All.yaml'}
+DROP_IP_RULES = {'Repcz/China.yaml'}
 
 # --- User-managed files: merge upstream additions WITHOUT overwriting ---
 # For these files, the sync READS the current file, fetches upstream,
