@@ -307,12 +307,6 @@ MERGE_RULES = {
         ],
         'filter': 'emby',
     },
-    '国外网盘.yaml': {
-        'upstreams': [
-            'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Yandex/Yandex.list',
-        ],
-        'filter': 'yandex_disk',
-    },
 }
 
 
