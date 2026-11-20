@@ -307,6 +307,12 @@ MERGE_RULES = {
         ],
         'filter': 'emby',
     },
+    '国外网盘.yaml': {
+        'upstreams': [
+            'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Yandex/Yandex.list',
+        ],
+        'filter': 'yandex_disk',
+    },
 }
 
 
@@ -419,18 +425,41 @@ def parse_clash_payload(text):
 
 
 def is_emby_related(domain):
-    """Check if a domain is Emby-related.
+    """Check if a domain is Emby-related. Only keep Emby official and emby-containing domains."""
+    domain = domain.lower()
+    if 'emby' in domain:
+        return True
+    if domain in ('emby.media', 'mb3admin.com'):
+        return True
+    if domain.endswith('.emby.media') or domain.endswith('.mb3admin.com'):
+        return True
+    return False
 
-    blackmatrix7's Emby list is already curated (all entries are Emby
-    servers or related services), so accept everything from it.
-    """
-    return True
+
+def is_yandex_disk(domain):
+    """Yandex 网盘：只留网盘相关域名，不留搜索/邮箱/地图等整个 Yandex。"""
+    domain = domain.lower()
+    allowed = [
+        'yadi.sk',
+        'yastatic.net',
+        'disk.yandex.com',
+        'disk.yandex.ru',
+        'disk.yandex.net',
+        'downloader.disk.yandex.ru',
+        'uploader.disk.yandex.ru',
+    ]
+    for a in allowed:
+        if domain == a or domain.endswith('.' + a):
+            return True
+    return False
 
 
 def filter_parsed(parsed, filter_name):
     """Remove junk entries from parsed upstream data."""
     if filter_name == 'emby':
         check = is_emby_related
+    elif filter_name == 'yandex_disk':
+        check = is_yandex_disk
     else:
         return parsed
     filtered = {}
