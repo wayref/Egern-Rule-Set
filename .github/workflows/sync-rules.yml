@@ -98,6 +98,13 @@ jobs:
           # leaves the file untouched.
           python3 scripts/merge-meta.py
 
+      - name: Split Meta.yaml into per-service files
+        run: |
+          # Per-service files (Facebook/Instagram/WhatsApp/Threads/
+          # Messenger) are derived from Meta.yaml, so they update
+          # automatically whenever the bucket changes.
+          python3 scripts/split-meta.py
+
       - name: Merge Microsoft.yaml from Repcz + LinkedIn (add-only)
         run: |
           # Microsoft.yaml is user-managed: only genuinely new
