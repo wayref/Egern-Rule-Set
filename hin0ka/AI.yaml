@@ -31,7 +31,6 @@ domain_set:
 - gspe1-ssl.ls.apple.com
 - guzzoni.apple.com
 - http-intake.logs.us5.datadoghq.com
-- imagine.meta.com
 - notebooklm-pa.googleapis.com
 - notebooklm.googleapis.com
 - o1158394.ingest.us.sentry.io
@@ -186,7 +185,6 @@ domain_suffix_set:
 - manus.im
 - manuscdn.com
 - marscode.com
-- meta.ai
 - metaaiusercontent.com
 - metaaivm.com
 - midjourney.com
@@ -194,7 +192,6 @@ domain_suffix_set:
 - mistral.ai
 - moonshot.ai
 - mozilla.ai
-- muse.ai
 - notebook.google
 - notebook.google.com
 - notebooklm.google

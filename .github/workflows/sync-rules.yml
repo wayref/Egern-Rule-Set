@@ -75,6 +75,11 @@ jobs:
               rm -f "$tmpfile"
               continue
             fi
+            # Filter out Meta domains from AI.yaml (they belong in Meta.yaml)
+            if [ "$path" = "hin0ka/AI.yaml" ]; then
+              grep -v -E "^\s*- (.*\.)?meta\.com\s*$|^\s*- meta\.ai\s*$|^\s*- muse\.ai\s*$|^\s*- llama\.com\s*$" "$tmpfile" > "${tmpfile}.filtered" && mv "${tmpfile}.filtered" "$tmpfile"
+              echo "Filtered Meta domains from $path"
+            fi
             if [ -f "$path" ] && cmp -s "$tmpfile" "$path"; then
               echo "UNCHANGED: $path"
             else
