@@ -90,6 +90,14 @@ jobs:
             rm -f "$tmpfile"
           done
 
+      - name: Merge Meta.yaml from w8626734 (add-only)
+        run: |
+          # Meta.yaml is user-managed: only genuinely new upstream
+          # entries are appended. Nothing is deleted, reordered or
+          # rewritten when there is nothing new; a failed fetch
+          # leaves the file untouched.
+          python3 scripts/merge-meta.py
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
