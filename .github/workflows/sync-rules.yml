@@ -98,6 +98,15 @@ jobs:
           # leaves the file untouched.
           python3 scripts/merge-meta.py
 
+      - name: Merge Microsoft.yaml from Repcz + LinkedIn (add-only)
+        run: |
+          # Microsoft.yaml is user-managed: only genuinely new
+          # entries from the repo's own Repcz files and LinkedIn
+          # are appended. Gaming, third-party vendors, keywords,
+          # user-agent, IP and ASN entries are excluded. Nothing is
+          # deleted, reordered or rewritten when there is nothing new.
+          python3 scripts/merge-microsoft.py
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
