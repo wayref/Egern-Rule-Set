@@ -1,122 +1,134 @@
 domain_set:
-  - fbcdn-a.akamaihd.net
-  - fbexternal-a.akamaihd.net
   - fbstatic-a.akamaihd.net
+  - fbexternal-a.akamaihd.net
   - instagramstatic-a.akamaihd.net
+  - fbcdn-a.akamaihd.net
 
 domain_suffix_set:
-  - aboutfacebook.com
-  - accountkit.com
-  - atmeta.com
-  - binoculus.com
-  - buyoculus.com
-  - careersatfb.com
-  - cdninstagram.com
-  - cdninstagram.net
-  - crowdtangle.com
-  - facebook.at
-  - facebook.be
-  - facebook.br
-  - facebook.ca
+  # Facebook 主站与短链
   - facebook.com
-  - facebook.com.ar
-  - facebook.com.au
-  - facebook.com.br
-  - facebook.in
   - facebook.net
   - facebook.org
-  - facebook.tv
-  - facebookads.com
-  - facebookblueprint.net
-  - facebookbrand.com
-  - facebookbrand.net
-  - facebookcareer.com
-  - facebookconnect.com
-  - facebookdevelopers.com
-  - facebookgames.com
-  - facebookgroups.com
-  - facebookinc.com
-  - facebooklive.com
-  - facebookmail.com
-  - facebookmarketingpartners.com
-  - facebookmobile.com
-  - facebookpay.com
-  - facebookportal.com
-  - facebookshop.com
-  - facebookstories.com
-  - facebookthreads.net
-  - facebookwork.com
   - fb.com
-  - fb.gg
   - fb.me
   - fb.watch
-  - fbcdn.com
-  - fbcdn.net
-  - fbmessages.com
-  - fbmessenger.com
+  - fb.gg
+  - fburl.com
   - fbsbx.com
   - fbsbx.net
+  - thefacebook.com
+  - fbwat.ch
+  - facebookbrand.com
+  - facebookbrand.net
+  - facebookmail.com
+  - fbworkmail.com
+  - facebookpay.com
+  - facebookportal.com
+  - facebooklive.com
+  - facebookgames.com
+  - freebasics.com
+  - internet.org
+  - metamail.com
+  - facebookgroups.com
+  - facebookstories.com
+  - facebookmobile.com
+  - facebookshop.com
+  - facebookconnect.com
+  - facebookdevelopers.com
+  - facebookinc.com
+  - facebookcareer.com
+  - careersatfb.com
+  - aboutfacebook.com
+  - facebookads.com
+  - facebookblueprint.net
+  - facebookmarketingpartners.com
+  - facebookwork.com
+  - facebookthreads.net
   - fbthirdpartypixel.com
   - fbthirdpartypixel.net
   - fbthirdpartypixel.org
-  - fburl.com
-  - fbwat.ch
-  - fbworkmail.com
-  - freebasics.com
+  - fbcdn.com
+  - fbcdn.net
+  # Facebook 区域域名
+  - facebook.br
+  - facebook.ca
+  - facebook.in
+  - facebook.tv
+  - facebook.com.ar
+  - facebook.com.br
+  - facebook.com.au
+  - facebook.at
+  - facebook.be
+  # Instagram
+  - instagram.com
+  - cdninstagram.com
+  - instagram.net
+  - cdninstagram.net
   - ig.me
   - igcdn.com
   - igtv.com
-  - instagr.am
   - instagram-brand.com
-  - instagram-engineering.com
-  - instagram-help.com
   - instagram-press.com
   - instagram-press.net
-  - instagram.com
+  - instagram-engineering.com
+  - instagr.am
+  - instagram-help.com
+  - instagrampartners.com
+  - instagram.com.br
   - instagram.com.al
   - instagram.com.bo
-  - instagram.com.br
-  - instagram.net
-  - instagrampartners.com
-  - internalfb.com
-  - internet.org
-  - llama.com
-  - m.me
-  - mcrouter.net
+  # Messenger
   - messenger.com
+  - fbmessenger.com
+  - fbmessages.com
+  - m.me
   - messengerdevelopers.com
+  # WhatsApp
+  - whatsapp.com
+  - whatsapp.net
+  - whatsapp.org
+  - whatsapp.biz
+  - whatsapp.cc
+  - whatsapp.info
+  - whatsapp.tv
+  - whatsappbrand.com
+  - wa.me
+  # Threads
+  - threads.com
+  - threads.net
+  # Meta AI / Muse / Llama
   - meta.ai
+  - muse.ai
+  - llama.com
   - meta.com
   - metaaiusercontent.com
   - metaaivm.com
-  - metamail.com
-  - muse.ai
-  - ocul.us
-  - oculus-china.com
+  - atmeta.com
+  # Oculus / Meta Quest
   - oculus.com
-  - oculus3d.com
-  - oculusblog.com
-  - oculusbrand.com
   - oculuscdn.com
+  - oculusbrand.com
+  - oculusblog.com
   - oculusconnect.com
   - oculusforbusiness.com
   - oculusrift.com
   - oculusvr.com
+  - oculus3d.com
+  - ocul.us
+  - oculus-china.com
+  - binoculus.com
+  - buyoculus.com
+  # Workplace
+  - workplace.com
+  - workplaceusecases.com
+  # 开发者 / 广告 / 支付
+  - developers.facebook.com
+  - accountkit.com
+  - crowdtangle.com
   - ogp.me
   - opengraphprotocol.com
   - opengraphprotocol.org
+  # CDN 与基础设施
   - tfbnw.net
-  - thefacebook.com
-  - threads.com
-  - threads.net
-  - wa.me
-  - whatsapp.biz
-  - whatsapp.cc
-  - whatsapp.com
-  - whatsapp.info
-  - whatsapp.net
-  - whatsapp.org
-  - whatsapp.tv
-  - whatsappbrand.com
-  - workplace.com
-  - workplaceusecases.com
+  - internalfb.com
+  - mcrouter.net
