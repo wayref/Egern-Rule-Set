@@ -9,7 +9,11 @@ blackmatrix7. Rules:
     existing entries; with nothing new the file is left untouched.
   - Domain-only: keyword / user-agent / IP / ASN entries are ignored.
   - Gaming is excluded (Xbox, Minecraft, Mojang, Bethesda, Activision,
-    Blizzard): those stay out of this bucket by the owner's decision.
+    Blizzard, and the same games under other names found 2026-11-26):
+    those stay out of this bucket by the owner's decision.
+  - Third-party domains that are not Microsoft's (Tenor, Fabric,
+    HelpShift, Localytics, Optimizely, UserVoice, HERE) and the
+    over-broad Akamai suffix edgesuite.net are excluded as well.
   - Copilot.yaml contributes nothing new on purpose: its genuinely
     Microsoft entries are already covered by the microsoft.com suffix,
     and every entry it has beyond that is a third-party vendor
@@ -34,14 +38,35 @@ LINKEDIN_URL = (
     '/master/rule/Surge/LinkedIn/LinkedIn.list'
 )
 # Gaming suffixes: excluded from this bucket by the owner's decision.
+# The first 25 came from the original build; the rest were found by the
+# 2026-11-26 review (same games under other names: Bethesda, Doom,
+# Forza, Gears, Game Pass, PlayFab, ...).
 GAMING = {
-    'bethesda.net', 'bethesdagamestudios.com', 'minecraft.net',
-    'minecraftshop.com', 'mojang.com', 'renovacionxboxlive.com',
+    'beth.games', 'bethesda.net', 'bethesdagamestudios.com',
+    'bethsoft.com', 'doom.com', 'elderscrolls.com',
+    'forzamotorsport.net', 'forzaracingchampionship.com', 'forzarc.com',
+    'gamepass.com', 'gamesstack.com', 'gameuxmasterguide.com',
+    'gears5.com', 'gearspop.com', 'gearstactics.com',
+    'microsoftgamestack.com', 'minecraft.net', 'minecraftshop.com',
+    'mojang.com', 'ms-studiosmedia.com', 'msgamesresearch.com',
+    'msgamestudios.com', 'orithegame.com', 'playfabapi.cn',
+    'playfabcn.com', 'renovacionxboxlive.com', 'tellmewhygame.com',
     'xbox.co', 'xbox.com', 'xbox.eu', 'xbox.org', 'xbox360.co',
     'xbox360.com', 'xbox360.eu', 'xbox360.org', 'xboxab.com',
     'xboxgamepass.com', 'xboxgamestudios.com', 'xboxlive.cn',
     'xboxlive.com', 'xboxone.co', 'xboxone.com', 'xboxone.eu',
     'xboxplayanywhere.com', 'xboxservices.com', 'xboxstudios.com',
+    'xbx.lv',
+}
+# Third-party domains that are not Microsoft's, found in the upstream
+# base file by the 2026-11-26 review (Tenor is Google's, Fabric is
+# Google Firebase's, HERE belongs to car makers, the rest are
+# independent vendors); edgesuite.net is also dropped because it is
+# Akamai's generic suffix and would match non-Microsoft customers.
+THIRD_PARTY = {
+    'edgesuite.net', 'fabric.io', 'helpshift.com', 'here.com',
+    'here.net', 'heremaps.cn', 'localytics.com', 'optimizely.com',
+    'tenor.com', 'uservoice.com',
 }
 LINKEDIN_DROP = {'linkedin.sc.omtrdc.net'}
 ENTRY_RE = re.compile(r'^(\s*)- (\S+)\s*$')
@@ -130,6 +155,7 @@ def main():
               file=sys.stderr)
 
     upstream['domain_suffix_set'] -= GAMING
+    upstream['domain_suffix_set'] -= THIRD_PARTY
     upstream['domain_set'] -= LINKEDIN_DROP
     upstream_total = sum(len(v) for v in upstream.values())
     if upstream_total < 10:

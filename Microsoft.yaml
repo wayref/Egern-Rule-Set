@@ -42,6 +42,7 @@ domain_suffix_set:
   - aztask.cn
   - azure
   - azure-api.cn
+  - azure-api.net
   - azure-apihub.cn
   - azure-apim.net
   - azure-automation.cn
@@ -97,13 +98,12 @@ domain_suffix_set:
   - azureserviceprofiler.com
   - azuresmartspaces.net
   - azurestackvalidation.com
+  - azurestaticapps.net
   - azurewebsites.net
   - b.akamaiedge.net
   - b2clogin.cn
   - b3itech.cn
   - bbing.com
-  - beth.games
-  - bethsoft.com
   - bibg.com
   - biing.com
   - binads.com
@@ -154,6 +154,7 @@ domain_suffix_set:
   - chinacloudapi.cn
   - chinacloudapp.cn
   - chinacloudsites.cn
+  - clipchamp.com
   - cloudapp.net
   - cloudappsecurity.com
   - codethemicrobit.com
@@ -172,35 +173,22 @@ domain_suffix_set:
   - dictate.ms
   - discoverbing.com
   - docs.com
-  - doom.com
   - dot.net
   - dwh5.com
   - dynamics.cn
   - dynamics.com
   - e-msedge.net
-  - edgesuite.net
   - efproject.net
-  - elderscrolls.com
   - engkoo.com
   - evoke-windowsservices-tas.msedge
   - exp-tas.com
   - explorebing.com
-  - fabric.io
   - fasttrackreadysupport.com
   - femalefounderscomp.com
   - flipwithsurface.com
   - fluidpreview.com
   - footprintdns.com
-  - forzamotorsport.net
-  - forzaracingchampionship.com
-  - forzarc.com
   - g.akamaiedge.net
-  - gamepass.com
-  - gamesstack.com
-  - gameuxmasterguide.com
-  - gears5.com
-  - gearspop.com
-  - gearstactics.com
   - getmicrosoftkey.com
   - gfx.ms
   - gigjam.com
@@ -208,10 +196,6 @@ domain_suffix_set:
   - graphengine.io
   - groupme.com
   - hdinsightservices.cn
-  - helpshift.com
-  - here.com
-  - here.net
-  - heremaps.cn
   - hockeyapp.net
   - hololens.com
   - hotmail
@@ -249,7 +233,6 @@ domain_suffix_set:
   - livefilestore.com
   - livetileedge.dsx.mp.microsoft.com.edgekey.net
   - livingyourambition.com
-  - localytics.com
   - lync.cn
   - lync.com
   - m12.vc
@@ -340,7 +323,6 @@ domain_suffix_set:
   - microsoftedgeinsider.com
   - microsoftemail.com
   - microsoftestore.com.hk
-  - microsoftgamestack.com
   - microsofthouse.com
   - microsofthouse.net
   - microsoftinternetsafety.net
@@ -398,6 +380,7 @@ domain_suffix_set:
   - microsofttradein.com
   - microsofttranslator-int.cn
   - microsofttranslator.com
+  - microsoftupdate.com
   - microsoftusercontent.com
   - microsoftuwp.com
   - mmais.com.cn
@@ -407,7 +390,6 @@ domain_suffix_set:
   - mono-project.com
   - morphcharts.com
   - mpnevolution.com
-  - ms-studiosmedia.com
   - ms365surfaceoffer.com
   - msa.akadns6.net
   - msads.net
@@ -434,8 +416,6 @@ domain_suffix_set:
   - msfteducation.ca
   - msftidentity.com
   - msftnet.org
-  - msgamesresearch.com
-  - msgamestudios.com
   - msidentity.cn
   - msidentity.com
   - msidlabpbmc.cn
@@ -510,8 +490,6 @@ domain_suffix_set:
   - onmschina.cn
   - opentranslatorstothings.org
   - opticsforthecloud.net
-  - optimizely.com
-  - orithegame.com
   - osdinfra.net
   - outingsapp.com
   - outlook.cn
@@ -523,10 +501,9 @@ domain_suffix_set:
   - pbiwebcontent.cn
   - phonefactor.net
   - pixapp.net
-  - playfabapi.cn
-  - playfabcn.com
   - poshtestgallery.com
   - powerapps.cn
+  - powerapps.com
   - powerappscdn.net
   - powerappsportals.cn
   - powerautomate.cn
@@ -582,8 +559,6 @@ domain_suffix_set:
   - sysinternals.com
   - tailwindtraders.com
   - techhub.ms
-  - tellmewhygame.com
-  - tenor.com
   - tfsallin.net
   - timelinestoryteller.com
   - trafficmanager.cn
@@ -594,7 +569,6 @@ domain_suffix_set:
   - unity3dcloud.cn
   - unlocklimitlesslearning.com
   - userpxt.io
-  - uservoice.com
   - uwpcommunitytoolkit.com
   - vfsforgit.com
   - vfsforgit.org
@@ -622,6 +596,7 @@ domain_suffix_set:
   - windows.com
   - windows.net
   - windows.nl
+  - windows365.com
   - windows8.hk
   - windowsazure.cn
   - windowsazure.com
@@ -640,7 +615,6 @@ domain_suffix_set:
   - working-bing-int.com
   - wunderlist.com
   - xamarin.com
-  - xbx.lv
   - yammer.com
   - yammerusercontent.com
   # GitHub
