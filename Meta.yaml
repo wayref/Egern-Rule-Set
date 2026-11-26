@@ -13,6 +13,7 @@ domain_suffix_set:
   - fb.me
   - fb.watch
   - fb.gg
+  - f8.com
   - fburl.com
   - fbsbx.com
   - fbsbx.net
@@ -20,12 +21,14 @@ domain_suffix_set:
   - fbwat.ch
   - facebookbrand.com
   - facebookbrand.net
+  - facebook.design
   - facebookmail.com
   - fbworkmail.com
   - facebookpay.com
   - facebookportal.com
   - facebooklive.com
   - facebookgames.com
+  - facebookgaming.com
   - freebasics.com
   - internet.org
   - metamail.com
@@ -38,6 +41,8 @@ domain_suffix_set:
   - facebookinc.com
   - facebookcareer.com
   - careersatfb.com
+  - metacareers.com
+  - fb.careers
   - aboutfacebook.com
   - facebookads.com
   - facebookblueprint.net
@@ -82,7 +87,9 @@ domain_suffix_set:
   - fbmessenger.com
   - fbmessages.com
   - m.me
+  - msngr.com
   - messengerdevelopers.com
+  - messengerkids.com
   # WhatsApp
   - whatsapp.com
   - whatsapp.net
